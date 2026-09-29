@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "edits": {
+    "31ca2192-f89d-5124-97e3-6e26f2fb3a05": {
+      "status": "PREPARED",
+      "date_reviewed": "2026-09-28",
+      "latest_decision": "APPLY",
+      "checks": {
+        "questions": true
+      }
+    },
+    "860b22eb-60f8-5a00-ad22-5b3476f0eee5": {
+      "status": "PREPARED",
+      "date_reviewed": "2026-09-29",
+      "latest_decision": "APPLY"
+    },
+    "6b06ada2-c909-5428-8742-1f9b8813acb4": {
+      "status": "PREPARED"
+    },
+    "3378b2f7-1065-556c-b09c-911d31b7e493": {
+      "status": "ANALYSED"
+    },
+    "89a4c9e2-644d-56ef-835a-b45708f24aa2": {
+      "status": "ANALYSED"
+    },
+    "bab55c03-5ca3-5a45-a0eb-fbd3f7da8031": {
+      "status": "PREPARED"
+    },
+    "cd739071-0c0e-5b5c-a2ca-65b6be07a145": {
+      "status": "ANALYSED"
+    },
+    "18b6510d-a3dd-5846-a466-b35558df1f6d": {
+      "status": "ANALYSED"
+    },
+    "13ffdbd0-a3ef-55e1-a71e-cf3858e309fb": {
+      "status": "FOUND"
+    },
+    "5d092a79-4b17-594b-9171-03c47b6cb25b": {
+      "status": "FOUND"
+    },
+    "c9299e70-4ba0-5394-8973-e3853636389e": {
+      "status": "FOUND"
+    },
+    "367a6729-aac0-5270-8dde-aecffe06498f": {
+      "status": "FOUND"
+    },
+    "0c88a0bf-dffd-5917-b5d3-9f56047e979b": {
+      "status": "FOUND"
+    },
+    "173ecb91-ab25-5296-af4d-6d505179a84c": {
+      "status": "FOUND"
+    },
+    "c1e75ee6-86f5-5f4d-b08b-705fa676208e": {
+      "status": "FOUND"
+    },
+    "87139fac-28be-5980-a6f0-a0cb222d8fc0": {
+      "status": "FOUND"
+    },
+    "76f2d16b-9c95-521a-be43-928009571d69": {
+      "status": "FOUND"
+    },
+    "f0ee2e84-bcf9-5558-9bad-7ed0b8eafbfb": {
+      "status": "FOUND"
+    },
+    "b63cfc01-85ea-5c47-9979-77257d4cb62f": {
+      "status": "FOUND"
+    },
+    "bcc9843f-4b83-559d-834b-206594895548": {
+      "status": "FOUND"
+    },
+    "91e9a5b5-a8b8-561b-a71c-73059b242385": {
+      "status": "FOUND"
+    },
+    "b32c68b9-5294-5549-b337-bb3e80ca6875": {
+      "status": "FOUND"
+    },
+    "51e112c9-c219-5dd3-adf5-c7c591c08220": {
+      "status": "FOUND"
+    },
+    "e768350b-ecc1-590e-b48b-7a791133ad05": {
+      "status": "FOUND"
+    },
+    "3aa15249-34ee-53d5-a01d-7b113822673b": {
+      "status": "FOUND"
+    },
+    "4f217316-8a8c-5029-b291-a4f67affa299": {
+      "status": "FOUND"
+    },
+    "0b9b40ad-5ccc-5750-a517-a8c453831588": {
+      "status": "FOUND"
+    },
+    "c662ced1-e14a-5fc1-b630-970aa4b19a37": {
+      "status": "FOUND"
+    },
+    "190f1ac3-2f6a-587b-a774-09ccf52cd0a1": {
+      "status": "FOUND"
+    },
+    "e92f7664-8583-5b0a-9e40-550ee369b34a": {
+      "status": "FOUND"
+    },
+    "9d6a7265-a812-5238-9075-8b0c880f6781": {
+      "status": "FOUND"
+    },
+    "5a94c195-c55a-5225-b84e-f69bf558f2ed": {
+      "status": "FOUND"
+    },
+    "ef5cd604-b8c2-5c99-8527-6990cc2dcf44": {
+      "status": "FOUND"
+    },
+    "b3f257c5-7e4c-5dd9-be96-a111a085fd24": {
+      "status": "FOUND"
+    },
+    "e3913365-2906-57f4-a90c-33ee5bf16e9a": {
+      "status": "FOUND"
+    },
+    "f497b988-d52f-58c6-a7dc-7309361f3a7d": {
+      "status": "FOUND"
+    },
+    "2ba3c79a-663d-59c0-a293-38ae3903e484": {
+      "status": "FOUND"
+    },
+    "2de8ca7c-edfe-5b0f-8ba7-aedac3df63d7": {
+      "status": "FOUND"
+    },
+    "cde478e3-2799-5ccc-a21f-da202f5645de": {
+      "status": "FOUND"
+    },
+    "74f7daac-a9b2-5845-8358-fc14631f8eef": {
+      "status": "FOUND"
+    },
+    "c7d31b36-3be3-5176-9c10-55c89383e2e2": {
+      "status": "FOUND"
+    },
+    "713e6049-77ef-569b-be16-e9f8fab79bd9": {
+      "status": "FOUND"
+    },
+    "3e12ca26-e33f-5b48-a955-2aa2f88964b1": {
+      "status": "FOUND"
+    },
+    "40e7b532-9d6f-58bf-ac3d-9ab655e96239": {
+      "status": "FOUND"
+    },
+    "c5a8d1d9-c20c-5c71-8446-7a19ac75d445": {
+      "status": "FOUND"
+    },
+    "3c3c683c-390a-5c40-b19b-044ecd103c43": {
+      "status": "FOUND"
+    },
+    "4fc10ccb-1d98-55b5-8a6b-221ba3303dc8": {
+      "status": "FOUND"
+    },
+    "f3a1b555-2373-5479-863f-62243647d71e": {
+      "status": "FOUND"
+    },
+    "3e8789a3-9205-5a1c-a566-9f1ee32f449b": {
+      "status": "FOUND"
+    },
+    "6dc58bb4-38ab-5f5d-b07c-263d77b4d2ea": {
+      "status": "FOUND"
+    },
+    "4035f5d1-6168-56f4-b9e4-f9532da00a4b": {
+      "status": "FOUND"
+    },
+    "33a1c8bb-0323-55ee-bc75-83ccc6c49d73": {
+      "status": "FOUND"
+    },
+    "da23263d-763d-55e4-80b4-171a6ec77fee": {
+      "status": "FOUND"
+    },
+    "e528de2b-63d1-517a-b2ea-04886379dec2": {
+      "status": "FOUND"
+    },
+    "b14aa80e-34e5-501c-b9e8-2eaa6b0ce94e": {
+      "status": "FOUND"
+    },
+    "7248a8e6-b5af-52d0-97b2-31e2cd0d344b": {
+      "status": "FOUND"
+    },
+    "9c814cdf-6b8b-53dc-812f-a9c9a7d849a6": {
+      "status": "FOUND"
+    },
+    "1b0ab893-271d-5833-ab20-ab92df86b220": {
+      "status": "FOUND"
+    },
+    "f8583908-7d15-5d9b-8f0f-1657c05cb833": {
+      "status": "FOUND"
+    },
+    "4e607730-8c28-5cb2-924e-afd802eb9474": {
+      "status": "FOUND"
+    },
+    "d990842a-443a-5ca7-ab1b-c9dd333616c4": {
+      "status": "FOUND"
+    },
+    "713c1b40-36b5-5ed0-bb17-74b711cbab35": {
+      "status": "FOUND"
+    },
+    "1ff2a6bc-4f25-547d-b5b4-ad837204242e": {
+      "status": "FOUND"
+    },
+    "32f48416-fee7-5c46-84a7-a77a8c28d597": {
+      "status": "FOUND"
+    },
+    "99c6979a-79c4-5b15-8cdc-070a983688aa": {
+      "status": "FOUND"
+    },
+    "5be15eb8-5686-564e-8299-84136e5e0804": {
+      "status": "FOUND"
+    },
+    "95559f43-9949-5ccf-be56-d2543210028c": {
+      "status": "FOUND"
+    },
+    "ce0097be-5a45-5357-b344-5b310edde1b5": {
+      "status": "FOUND"
+    },
+    "cb8be606-1902-5003-a256-79ff7ef7e34d": {
+      "status": "FOUND"
+    },
+    "02cebb28-1ca5-55e9-9b94-dda0a9064aef": {
+      "status": "FOUND"
+    },
+    "23c9c9e3-4e52-54eb-bf67-353e2cc1b33f": {
+      "status": "FOUND"
+    },
+    "59fcc92f-f55b-59e6-8ee8-e28e05fe8c35": {
+      "status": "FOUND"
+    },
+    "0ead56eb-3650-54ba-a9de-992817c2707e": {
+      "status": "FOUND"
+    },
+    "8f62db83-d4a9-5901-b99c-08db93a26a47": {
+      "status": "FOUND"
+    },
+    "d6d0db4e-d143-5dd7-bd35-cb248323a2d4": {
+      "status": "FOUND"
+    },
+    "bf36de1c-a065-5c0a-9820-20ac8a3a15bf": {
+      "status": "FOUND"
+    },
+    "af1c4bdb-7b5a-5a6b-add2-a1f28f2be681": {
+      "status": "FOUND"
+    },
+    "26058e3b-a92b-5468-8ee7-578ae05f0f59": {
+      "status": "FOUND"
+    },
+    "9c3200b4-d399-5ef5-a4fc-10da0c090415": {
+      "status": "FOUND"
+    },
+    "998915f0-cab2-5c74-9852-037ae88782f6": {
+      "status": "FOUND"
+    },
+    "341a60d6-8443-5313-846e-6325104ec021": {
+      "status": "FOUND"
+    },
+    "2761d02d-6467-574d-94e1-7f44938f57b5": {
+      "status": "FOUND"
+    },
+    "d12ff0ee-9afd-5bd9-8f82-691b68803097": {
+      "status": "FOUND"
+    },
+    "cd65196b-9441-58f3-accf-0a426f28391b": {
+      "status": "FOUND"
+    },
+    "b8e3b1e0-2134-5e57-9d3a-7763ba40a9f4": {
+      "status": "FOUND"
+    },
+    "67929a39-7e7c-5d57-8064-835a05c0c1b7": {
+      "status": "FOUND"
+    },
+    "6e0b97b1-5c6a-551f-81cc-f7cf03bd0c5b": {
+      "status": "FOUND"
+    },
+    "6f7f956e-6b4d-5706-903b-9468fbce2d1e": {
+      "status": "FOUND"
+    },
+    "8918f4eb-ef0f-540c-8d99-b9ce34ded585": {
+      "status": "FOUND"
+    },
+    "726ce8e2-3990-5069-b0d6-b6d0874d702d": {
+      "status": "FOUND"
+    },
+    "c2afd41b-1ff4-5a29-815a-954676881586": {
+      "status": "FOUND"
+    },
+    "d4022f3c-7421-5ab9-8e87-223ecb98bf54": {
+      "status": "FOUND"
+    },
+    "53d41513-83dd-5bc5-b9f1-7b45fbb3d956": {
+      "status": "FOUND"
+    },
+    "55b68bc3-10c0-55f1-ada6-02d0604bd839": {
+      "status": "FOUND"
+    },
+    "aa314ee5-c383-52ff-aac1-1a3778502ecf": {
+      "status": "FOUND"
+    },
+    "67cc06d5-204a-5609-a3b6-44fe1f775eae": {
+      "status": "FOUND"
+    },
+    "d693fb5a-f0e6-5502-a67d-101a02936964": {
+      "status": "FOUND"
+    },
+    "3fa58f1d-06b4-5bf9-bab8-c78d641df404": {
+      "status": "FOUND"
+    },
+    "03e02a66-e930-5653-8e3c-a55351eeffb9": {
+      "status": "FOUND"
+    },
+    "b780ffdc-fa85-5522-b258-5eee5bfccfd8": {
+      "status": "FOUND"
+    },
+    "962d3438-6de3-5c80-9888-25416225dd38": {
+      "status": "FOUND"
+    },
+    "d960eb1e-55f2-5a1d-9719-a4486a830446": {
+      "status": "FOUND"
+    },
+    "5946773e-8edd-5120-a74d-34d9443a9d89": {
+      "status": "FOUND"
+    },
+    "77788282-4c12-5a4c-821f-030c52b7b153": {
+      "status": "FOUND"
+    },
+    "1b7064ac-ad9d-534d-afbb-2bd1783800dd": {
+      "status": "FOUND"
+    },
+    "0d7d5f34-a7d9-5094-a0eb-e228b7ed61fb": {
+      "status": "FOUND"
+    },
+    "07ce5ae9-3896-5e39-b11d-24ef03c7835e": {
+      "status": "FOUND"
+    },
+    "f2078177-367f-560f-a57f-af40d50e21c5": {
+      "status": "FOUND"
+    },
+    "2f07228f-3a65-5f1e-a543-16d9c9cab8ec": {
+      "status": "FOUND"
+    },
+    "7b48d22e-d33f-58c8-83fd-34c21094d11b": {
+      "status": "FOUND"
+    },
+    "b9837728-98f8-575a-9942-03dc7341e3ef": {
+      "status": "FOUND"
+    },
+    "d7c75c56-b50d-5351-8548-f9c375434304": {
+      "status": "FOUND"
+    },
+    "17cc11c5-9f1e-5d37-9518-28fb76227373": {
+      "status": "FOUND"
+    },
+    "3a29aeeb-ced3-5749-9fb2-25097b7abb89": {
+      "status": "FOUND"
+    },
+    "427a946e-3645-5e29-8277-50e58794b92c": {
+      "status": "FOUND"
+    },
+    "65aa2e31-0806-528a-8106-4e7ea9a2be34": {
+      "status": "FOUND"
+    },
+    "70e11371-051a-514b-9842-311d3a358715": {
+      "status": "FOUND"
+    },
+    "6e34be39-6e6d-5191-921c-09329fcf8abd": {
+      "status": "FOUND"
+    },
+    "bc55b8b5-d7e6-50f5-a521-2995c3e20afa": {
+      "status": "FOUND"
+    },
+    "189aa944-cbe4-5af3-a9ff-f7e789825253": {
+      "status": "FOUND"
+    },
+    "bd1c90ca-ead6-5177-866d-c87204a8e366": {
+      "status": "FOUND"
+    },
+    "0c96f458-a04b-5a96-be04-2e9944dc87a2": {
+      "status": "FOUND"
+    },
+    "1fdce58c-23a9-5fe0-bfbd-78baca3dacf7": {
+      "status": "FOUND"
+    },
+    "c4589c73-3e3d-5c90-abc1-f1d322245fdb": {
+      "status": "FOUND"
+    },
+    "63043787-7f03-5ac1-93d4-2bbea3880bde": {
+      "status": "FOUND"
+    },
+    "aaf98f19-a719-5d81-8970-9ba221f56fec": {
+      "status": "FOUND"
+    },
+    "ab49cb22-c592-5b7d-af4b-10b0df85af2c": {
+      "status": "FOUND"
+    },
+    "e636c204-787e-5023-9a22-45281e5cddb2": {
+      "status": "FOUND"
+    },
+    "4db0a3d1-4946-522c-9a60-a9883993c326": {
+      "status": "FOUND"
+    },
+    "a92f3920-f70f-5366-8802-f6cdc987ef26": {
+      "status": "FOUND"
+    },
+    "3163c8eb-9a72-51c4-84aa-adeb63792c44": {
+      "status": "FOUND"
+    },
+    "eb765c5c-8064-55ab-9b9b-5191e0738cc6": {
+      "status": "FOUND"
+    },
+    "0e91fa5e-0d44-5c2c-95e9-d499f0a3b275": {
+      "status": "FOUND"
+    },
+    "f7aa5668-7303-5b22-a9b5-1c429e26bf48": {
+      "status": "FOUND"
+    },
+    "f1c96ba7-e500-58fe-badb-30c7b71f0ff5": {
+      "status": "FOUND"
+    },
+    "fe2ffb61-2d12-574a-8d00-50c541e24f74": {
+      "status": "FOUND"
+    },
+    "1eb8048e-2004-5c8b-820e-f429ba266d56": {
+      "status": "FOUND"
+    },
+    "969818c2-6bdb-5bc3-b540-be98be64a05b": {
+      "status": "FOUND"
+    },
+    "e5b276b7-19b4-51a2-960e-87e1ece0154a": {
+      "status": "FOUND"
+    },
+    "3e34908b-6d7c-551e-86ea-a25bda6539b3": {
+      "status": "FOUND"
+    },
+    "66790812-8981-5c5e-9b2b-3667d335778d": {
+      "status": "FOUND"
+    },
+    "6909e513-c374-5a5e-9059-76ec73d324db": {
+      "status": "FOUND"
+    },
+    "b59daf85-4b64-58a4-8975-b5bf35ae9581": {
+      "status": "FOUND"
+    },
+    "0abe270d-2a13-53ad-81e5-0fd0d0bdbff1": {
+      "status": "FOUND"
+    },
+    "0e91f45c-b4d3-5a72-bc64-9b114c193cfc": {
+      "status": "FOUND"
+    },
+    "67b5d08a-7d37-5fff-b3f8-850a8b06902e": {
+      "status": "FOUND"
+    },
+    "e0ef78f2-d2cf-5925-a4ec-2c31eac4eed1": {
+      "status": "FOUND"
+    },
+    "db6a2636-c7c0-5be5-b28b-f8d288d83511": {
+      "status": "FOUND"
+    },
+    "66bc6fe0-3835-512f-b3e2-c9408f267298": {
+      "status": "FOUND"
+    },
+    "e6ca32cf-aaaf-551b-bea1-9fd0f7efea39": {
+      "status": "FOUND"
+    },
+    "bf5bd058-2c22-527c-9783-268bf384d6c2": {
+      "status": "FOUND"
+    },
+    "ee9ad332-a60b-5e61-974a-f6d1f0f6f3f1": {
+      "status": "FOUND"
+    },
+    "96c00105-4511-5289-9f23-0d1f0d7168e4": {
+      "status": "FOUND"
+    },
+    "2ce2561b-88c3-5e32-aa47-dff65b00ac33": {
+      "status": "FOUND"
+    },
+    "d378d7fe-ff35-5d4f-8d46-c6893d97f0e6": {
+      "status": "FOUND"
+    },
+    "5f18c632-b509-5b01-b37b-e8a2f638a297": {
+      "status": "FOUND"
+    },
+    "fafdb9ba-15fa-5430-8769-ebbac49799a2": {
+      "status": "FOUND"
+    },
+    "fa65e3b7-819b-5f27-8b6f-5d2568ec49ba": {
+      "status": "FOUND"
+    },
+    "e0fa3830-3754-5ae5-9758-dc67399eccb0": {
+      "status": "FOUND"
+    },
+    "f676964a-bcfb-59d2-9f2d-929d424e7697": {
+      "status": "FOUND"
+    },
+    "fa86daf7-0c25-560d-b57f-43474a38d48d": {
+      "status": "FOUND"
+    },
+    "2b6bc6e3-a242-5896-854d-392a17ab5bc5": {
+      "status": "FOUND"
+    },
+    "f3f9aa2e-358a-5965-9acf-3e7c94667ff0": {
+      "status": "FOUND"
+    },
+    "8cda5e1a-5488-5d02-aefc-b1888fe04924": {
+      "status": "FOUND"
+    },
+    "c2f3c04d-c638-513c-8a30-0c5d65003817": {
+      "status": "FOUND"
+    },
+    "0f54f392-c0c7-5898-88a9-f62528d528f5": {
+      "status": "FOUND"
+    },
+    "55bd46ad-be0c-5312-8160-dada7751d24c": {
+      "status": "FOUND"
+    },
+    "e18c5a65-61b6-5894-9cc1-75c901ad9474": {
+      "status": "FOUND"
+    },
+    "f40405c4-e1f4-5016-819b-7257991c3681": {
+      "status": "FOUND"
+    },
+    "67bdf9d4-99d5-59ce-8117-09debbdadee1": {
+      "status": "FOUND"
+    },
+    "a6187bd7-585c-5cf6-aaf9-3fd5892a9f5a": {
+      "status": "FOUND"
+    },
+    "5bb36092-88b9-5e73-bbf9-e5c2296bb837": {
+      "status": "FOUND"
+    },
+    "69836b28-74fc-5ac7-9658-58ff0d58b3a3": {
+      "status": "FOUND"
+    },
+    "62469d50-cad6-5f2e-989b-2705e075f3b3": {
+      "status": "FOUND"
+    },
+    "acdc90f1-a486-58a4-bc35-14e5f26f56e9": {
+      "status": "FOUND"
+    },
+    "14d194b9-3958-545f-8dc7-73a09387ce2f": {
+      "status": "FOUND"
+    },
+    "087d4589-196b-52a4-a687-f75f580405b2": {
+      "status": "FOUND"
+    },
+    "f0bf9e1e-0391-5b73-ac8b-e8e5448f87e6": {
+      "status": "FOUND"
+    },
+    "27cf2ed7-b913-52dc-9560-bad0895ee9af": {
+      "status": "FOUND"
+    },
+    "1777e40e-06be-5b81-bd8a-38c33ede0dc1": {
+      "status": "FOUND"
+    },
+    "49034577-e8aa-5056-a04d-a8ea2bcee73a": {
+      "status": "FOUND"
+    },
+    "d5fd23b7-432c-5791-b1f4-dd896ff77fe2": {
+      "status": "FOUND"
+    },
+    "817363e1-aec9-53ef-babc-d0b5b9e916b8": {
+      "status": "FOUND"
+    },
+    "41200830-ccc2-5f43-b573-35ab66b6a72e": {
+      "status": "FOUND"
+    },
+    "12668e26-c232-50f5-bd71-4a131401a794": {
+      "status": "FOUND"
+    },
+    "1944ae2d-81be-54bd-9657-3215b4116ac9": {
+      "status": "FOUND"
+    },
+    "a14c1abf-9c41-5ebf-82a8-b392a6abecc4": {
+      "status": "FOUND"
+    },
+    "1369a6ab-573f-5880-8d59-e077638faca6": {
+      "status": "FOUND"
+    },
+    "004266d0-df82-5b61-9dbc-eff2f916461b": {
+      "status": "FOUND"
+    },
+    "7c6d97f6-495c-59ab-b89c-620ef1fb0a44": {
+      "status": "FOUND"
+    },
+    "8226c03c-aec9-5260-bf9d-3b62f6b3b16b": {
+      "status": "FOUND"
+    },
+    "543aba9b-75bf-5f1c-a0d8-c2c9b164cab1": {
+      "status": "FOUND"
+    },
+    "33d36d01-a246-5ed4-861e-63e39ff47458": {
+      "status": "FOUND"
+    },
+    "2b9f5d60-9c2e-5185-895a-2a10fdc77ccb": {
+      "status": "FOUND"
+    },
+    "77462ffc-4ba7-5bab-9c80-04519ce2d6ca": {
+      "status": "FOUND"
+    },
+    "f2f07674-0b59-54ac-a442-90d1f4df94c5": {
+      "status": "FOUND"
+    },
+    "c367c4d7-822c-5e76-879f-532f1cbe8738": {
+      "status": "FOUND"
+    }
+  }
+}

@@ -1,15 +1,67 @@
-/* GitHub Pages adapter. Published data is a snapshot; edits stay in this browser. */
+/* GitHub Pages adapter with an optional repository-scoped GitHub sync token. */
 window.PERSONAL_JOB_OS_STATIC = true;
+const syncOwner = "pasqualemorelli";
+const syncRepo = "personal-job-os-pages";
+const syncPath = "sync.json";
+const syncApiUrl = `https://api.github.com/repos/${syncOwner}/${syncRepo}/contents/${syncPath}`;
+const syncTokenKey = "personal-job-os-github-sync-token-v1";
 const publishedSnapshot = fetch("./data.json?v=" + Date.now(), {cache:"no-store"}).then(async response => {
   if (!response.ok) throw new Error("The published snapshot is unavailable.");
   return response.json();
 });
-const editStorageKey = "personal-job-os-pages-edits-v1";
-function readEdits() {
-  try { return JSON.parse(localStorage.getItem(editStorageKey) || "{}"); }
-  catch { return {}; }
+let syncDocument = null;
+function syncToken() { return sessionStorage.getItem(syncTokenKey) || localStorage.getItem(syncTokenKey) || ""; }
+function encodeContent(value) {
+  const bytes = new TextEncoder().encode(value);
+  let binary = "";
+  bytes.forEach(byte => binary += String.fromCharCode(byte));
+  return btoa(binary);
 }
-function saveEdits(edits) { localStorage.setItem(editStorageKey, JSON.stringify(edits)); }
+async function syncRequest(method="GET", body=null, token=syncToken()) {
+  const headers = {"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"};
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const response = await fetch(syncApiUrl + (method === "GET" ? `?v=${Date.now()}` : ""), {method,headers,body:body?JSON.stringify(body):undefined,cache:"no-store"});
+  const data = await response.json().catch(()=>({}));
+  if (!response.ok) throw new Error(response.status===401||response.status===403 ? "GitHub sync token is missing or lacks Contents access." : (data.message||"GitHub sync is unavailable."));
+  return data;
+}
+async function loadSync(force=false) {
+  if (syncDocument && !force) return syncDocument;
+  try {
+    const file = await syncRequest();
+    const text = new TextDecoder().decode(Uint8Array.from(atob(file.content.replace(/\s/g,"")), character=>character.charCodeAt(0)));
+    syncDocument = {...JSON.parse(text),sha:file.sha};
+  } catch (error) {
+    if (!syncDocument) syncDocument = {version:1,updated_at:null,edits:{},error:error.message};
+  }
+  return syncDocument;
+}
+async function saveSync(jobId, changed) {
+  const token = syncToken();
+  if (!token) throw new Error("Connect GitHub sync in Settings before saving changes.");
+  const latest = await loadSync(true);
+  if (latest.error) throw new Error(latest.error);
+  const document = {version:1,updated_at:new Date().toISOString(),edits:{...(latest.edits||{}),[jobId]:changed}};
+  await syncRequest("PUT", {message:`Sync Personal Job OS · ${jobId}`,content:encodeContent(JSON.stringify(document,null,2)+"\n"),sha:latest.sha,branch:"main"}, token);
+  syncDocument = document;
+}
+window.staticSync = {
+  connected:()=>Boolean(syncToken()),
+  status:()=>syncDocument?.error ? "Unavailable" : syncToken() ? "Connected" : "Read only",
+  async connect(token,remember=true) {
+    const clean=String(token||"").trim();
+    if (!clean) throw new Error("Paste a fine-grained GitHub token.");
+    const response=await fetch(`https://api.github.com/repos/${syncOwner}/${syncRepo}`,{headers:{"Accept":"application/vnd.github+json","Authorization":`Bearer ${clean}`,"X-GitHub-Api-Version":"2022-11-28"}});
+    const repo=await response.json().catch(()=>({}));
+    if (!response.ok || !repo.permissions?.push) throw new Error("This token cannot write to personal-job-os-pages.");
+    (remember?localStorage:sessionStorage).setItem(syncTokenKey,clean);
+    syncDocument=null;
+    await loadSync(true);
+    return true;
+  },
+  disconnect(){localStorage.removeItem(syncTokenKey);sessionStorage.removeItem(syncTokenKey);},
+  refresh:()=>loadSync(true)
+};
 function copy(value) { return structuredClone(value); }
 function publicJob(job, edits) {
   const changed = edits[job.id] || {};
@@ -29,7 +81,7 @@ function listFiles(files, area, folder) {
 }
 window.staticApi = async function staticApi(route, options={}) {
   const data = await publishedSnapshot;
-  const edits = readEdits();
+  const edits = (await loadSync()).edits || {};
   const url = new URL(route, location.href);
   const path = url.pathname;
   const method = (options.method || "GET").toUpperCase();
@@ -76,7 +128,8 @@ window.staticApi = async function staticApi(route, options={}) {
   } else if (kind === "feedback") {
     changed.feedback = [...(changed.feedback || []),{...body,created_at:new Date().toISOString()}];
   }
+  changed.updated_at = new Date().toISOString();
   edits[id] = changed;
-  saveEdits(edits);
+  await saveSync(id, changed);
   return kind === "check" ? {ok:true,checks:changed.checks} : {ok:true,status:changed.status,decision:changed.latest_decision};
 };

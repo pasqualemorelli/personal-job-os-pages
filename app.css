@@ -25,3 +25,4 @@
 @media(max-width:640px){.workspace-meta{gap:8px 14px}.workspace-cv{padding:8px}.workspace-cv .cv-sheet{font-size:clamp(5px,1.5vw,6px)}.file-entry{grid-template-columns:minmax(0,1fr) auto}.file-entry a{overflow-wrap:anywhere}.file-actions{gap:8px}}
 .decision-feedback{display:flex;gap:16px;align-items:center;margin:18px 0 0;font-size:12px;color:var(--muted)}.decision-feedback .link-button{font-size:12px}
 .snapshot-note{border-bottom:1px solid var(--line);padding:0 0 18px;margin:0 0 28px;color:var(--warning);font-size:12px;max-width:75ch}
+.sync-state{display:flex;align-items:center;gap:9px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;margin:18px 0}.sync-state strong{font-size:14px;font-weight:600}.sync-panel .check-row{border-top:0;margin:-4px 0 12px}.sync-panel .inline-actions{margin-top:18px}
