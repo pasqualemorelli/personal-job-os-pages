@@ -1,0 +1,81 @@
+{
+  "week": "2026-W40",
+  "generated_at": "2026-09-28T22:10:34.646199+02:00",
+  "relevant_jobs": 8,
+  "recurring_skills": [
+    {
+      "name": "brand",
+      "jobs": 8
+    },
+    {
+      "name": "digital",
+      "jobs": 8
+    },
+    {
+      "name": "systems",
+      "jobs": 8
+    },
+    {
+      "name": "leadership",
+      "jobs": 8
+    },
+    {
+      "name": "product",
+      "jobs": 8
+    },
+    {
+      "name": "strategy",
+      "jobs": 6
+    }
+  ],
+  "companies": [
+    {
+      "name": "Kogan.com",
+      "jobs": 2
+    },
+    {
+      "name": "Mable",
+      "jobs": 2
+    },
+    {
+      "name": "Sora Union",
+      "jobs": 2
+    },
+    {
+      "name": "Eucalyptus",
+      "jobs": 2
+    }
+  ],
+  "salary_disclosed_jobs": 0,
+  "feedback": {},
+  "recommendations": [
+    {
+      "title": "Verify current Australian work rights",
+      "reason": "Application answers remain blocked until your current grant conditions are confirmed.",
+      "evidence": "8 relevant jobs reviewed this week; current work rights are unverified in Profile."
+    },
+    {
+      "title": "Add a LinkedIn URL or export",
+      "reason": "The profile source is missing, so the system cannot compare it with your CV or tailor profile advice.",
+      "evidence": "Profile has no LinkedIn URL; 8 relevant jobs were collected this week."
+    },
+    {
+      "title": "Make brand work easier to find",
+      "reason": "Consider highlighting one verified CV or portfolio example for this recurring requirement.",
+      "evidence": "8 of 8 relevant job descriptions mention brand."
+    }
+  ],
+  "linkedin_ideas": [
+    {
+      "title": "A case study on brand",
+      "prompt": "Show a real project process and outcome already supported by your CV or portfolio; check the source before publishing.",
+      "evidence": "8 job descriptions mention brand."
+    },
+    {
+      "title": "A case study on digital",
+      "prompt": "Show a real project process and outcome already supported by your CV or portfolio; check the source before publishing.",
+      "evidence": "8 job descriptions mention digital."
+    }
+  ],
+  "note": "Generated once per ISO week from locally stored jobs and feedback. Counts describe this small source sample, not the Australian market."
+}

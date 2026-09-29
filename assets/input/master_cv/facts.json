@@ -1,0 +1,48 @@
+[
+  {
+    "key": "professional_title",
+    "value": "Senior Brand Designer",
+    "evidence": "Senior Brand Designer"
+  },
+  {
+    "key": "contact.email",
+    "value": "pasq.morelli@gmail.com",
+    "evidence": "E-mail — pasq.morelli@gmail.com"
+  },
+  {
+    "key": "contact.phone",
+    "value": "+39 3292620733",
+    "evidence": "Phone — +39 3292620733"
+  },
+  {
+    "key": "current_city_at_cv_date",
+    "value": "Milan",
+    "evidence": "Based in Milan"
+  },
+  {
+    "key": "languages",
+    "value": {"Italian": "Native language", "English": "Fluent", "Spanish": "Beginner"},
+    "evidence": "Italian — Native language"
+  },
+  {
+    "key": "education.master",
+    "value": {"institution": "Politecnico di Milano", "qualification": "Master's Degree, Communication Design", "from": "2017", "to": "2020"},
+    "evidence": "Master's Degree, Communication"
+  },
+  {
+    "key": "experience.truelayer.senior_brand_designer",
+    "value": {"company": "TrueLayer", "title": "Senior Brand Designer", "location": "Milan", "from": "Apr 2025", "to": null},
+    "evidence": "Senior Brand Designer — from Apr 2025"
+  },
+  {
+    "key": "experience.truelayer.brand_designer",
+    "value": {"company": "TrueLayer", "title": "Brand Designer", "location": "Milan", "from": "Oct 2022", "to": "Apr 2025"},
+    "evidence": "Brand Designer — from Oct 2022 to Apr 2025"
+  },
+  {
+    "key": "experience.blossom.graphic_designer",
+    "value": {"company": "Blossom", "title": "Graphic Designer", "location": "Milan", "from": "Apr 2022", "to": "Sept 2022"},
+    "evidence": "Graphic Designer — from Apr 2022 to Sept 2022"
+  }
+]
+

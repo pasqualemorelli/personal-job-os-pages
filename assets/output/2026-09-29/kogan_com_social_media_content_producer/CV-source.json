@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "job_id": "860b22eb-60f8-5a00-ad22-5b3476f0eee5",
+  "job_url": "https://jobs.lever.co/kogan/082d2fd4-f3fe-4117-babf-0902bd37e313/apply",
+  "company": "Kogan.com",
+  "role": "Social Media Content Producer",
+  "generated_at": "2026-09-29T11:46:26.352133+02:00",
+  "master_sha256": "7bd302571caa1e92ff1327e7af860a662784011519fc1b43e7abfea3115bd176",
+  "job_description_sha256": "6af85764015b5cfc537ba29761e9d11a3781fd1bae94a6d533326ff285214b7a",
+  "validation_status": "REVIEW REQUIRED",
+  "tailoring": {
+    "method": "exact_source_sentence_selection",
+    "targeted_keywords": [
+      "brand",
+      "content",
+      "guidelines",
+      "market",
+      "marketing",
+      "performance",
+      "social",
+      "storytelling",
+      "strategy"
+    ],
+    "selections": [
+      {
+        "role": "Graphic Designer — from Apr 2022 to Sept 2022",
+        "kept_sentences": [
+          "Designing brand identities and digital assets for multiple clients.",
+          "Working fast across formats while keeping strong visual craft."
+        ],
+        "omitted_sentences": [
+          "Taking projects from early concepts to final deliverables and handoff."
+        ]
+      },
+      {
+        "role": "Experience Designer — from Nov 2020 to Apr 2022",
+        "kept_sentences": [
+          "Designing digital experiences within multidisciplinary teams.",
+          "Blending UX foundations with strong visual design across screens and journeys."
+        ],
+        "omitted_sentences": [
+          "Contributing from discovery to delivery, balancing user needs and brand."
+        ]
+      },
+      {
+        "role": "Art Director Intern — from Jul 2019 to Jan 2020",
+        "kept_sentences": [
+          "Supporting concept development for campaigns and content.",
+          "Working within a creative team across feedback, production and delivery."
+        ],
+        "omitted_sentences": [
+          "Producing and adapting assets across formats for global brands."
+        ]
+      }
+    ],
+    "requires_human_review": true
+  },
+  "cv": {
+    "name": "Pasquale Morelli",
+    "title": "Senior Brand Designer",
+    "contact": [
+      "Portfolio — pasqualemorelli.com ↗",
+      "Social — Instagram ↗ LinkedIn ↗",
+      "E-mail — pasq.morelli@gmail.com",
+      "Phone — +39 3292620733"
+    ],
+    "about": "Based in Milan, specialised in brand design, turning business goals into clear creative direction. Experienced across tech and agencies, building scalable, high-performing brand systems and campaigns, with craft and purpose behind every choice.",
+    "languages": [
+      "Italian — Native language",
+      "English — Fluent",
+      "Spanish — Beginner"
+    ],
+    "university": [
+      [
+        "Politecnico di Milano",
+        "Master's Degree, Communication Design — from 2017 to 2020",
+        "Grade: 110/110"
+      ],
+      [
+        "Centennial College, Toronto",
+        "Exchange semester — 2019"
+      ],
+      [
+        "Politecnico di Milano",
+        "Bachelor's Degree, Communication Design — from 2014 to 2017",
+        "Grade: 110/110 cum Laude"
+      ]
+    ],
+    "courses": [
+      [
+        "Creative Leadership",
+        "Royal College of Art, London — 2026"
+      ],
+      [
+        "Brand Management",
+        "Bocconi, Milan — 2026"
+      ],
+      [
+        "AI x Design Thinking",
+        "IDEO U — 2026"
+      ],
+      [
+        "Brand Strategy and Storytelling",
+        "Hyper Island, Stockholm — 2024"
+      ],
+      [
+        "Branding Now. Ultimate branding course for Senior Creatives",
+        "Future London Academy — 2023"
+      ]
+    ],
+    "skills": [
+      "Brand strategy and storytelling",
+      "Social content design",
+      "Brand systems a guidelines",
+      "Performance marketing creative",
+      "Creative and art direction",
+      "Campaign concepts",
+      "Graphic design",
+      "Web design",
+      "Motion design and storyboard",
+      "AI workflows"
+    ],
+    "experience": [
+      {
+        "company": "TrueLayer, Milan",
+        "roles": [
+          {
+            "title": "Senior Brand Designer — from Apr 2025",
+            "body": "Leading the brand direction for Pay by Bank across web, product and marketing. Owning brand guidelines and production ensuring consistency and performance. Partnering with Product and Marketing to translate priorities into a clear roadmap and actionable creative direction."
+          },
+          {
+            "title": "Brand Designer — from Oct 2022 to Apr 2025",
+            "body": "Delivering high craft assets across key brand and marketing touchpoints. Supporting campaigns and events, collaborating closely with cross functional teams to maintain consistency and quality."
+          }
+        ]
+      },
+      {
+        "company": "Blossom, Milan",
+        "roles": [
+          {
+            "title": "Graphic Designer — from Apr 2022 to Sept 2022",
+            "body": "Designing brand identities and digital assets for multiple clients. Working fast across formats while keeping strong visual craft."
+          }
+        ]
+      },
+      {
+        "company": "Accenture Song, Milan",
+        "roles": [
+          {
+            "title": "Experience Designer — from Nov 2020 to Apr 2022",
+            "body": "Designing digital experiences within multidisciplinary teams. Blending UX foundations with strong visual design across screens and journeys."
+          }
+        ]
+      },
+      {
+        "company": "Ogilvy, Milan",
+        "roles": [
+          {
+            "title": "Art Director Intern — from Jul 2019 to Jan 2020",
+            "body": "Supporting concept development for campaigns and content. Working within a creative team across feedback, production and delivery."
+          }
+        ]
+      },
+      {
+        "company": "Polimi Sport, Milan",
+        "roles": [
+          {
+            "title": "Graphic Designer and Content Creator — from Mar 2017 to Jul 2019",
+            "body": "Creating graphics and video content for Politecnico di Milano Sport social channels, supporting event storytelling and promotion."
+          }
+        ]
+      }
+    ],
+    "teaching": [
+      {
+        "company": "Politecnico di Milano, Milan",
+        "roles": [
+          {
+            "title": "Corporate Identity, Teaching Assistant — from Feb 2024",
+            "body": "Mentoring students through feedback to push concept and craft. Delivering lectures on design methods and project workflows."
+          },
+          {
+            "title": "Digital Image Culture, Teaching Assistant — Oct 2023 to Feb 2025",
+            "body": "Leading project mentoring, supporting students in developing strong concepts and high quality communication outcomes."
+          }
+        ]
+      }
+    ]
+  },
+  "generated_cv": {
+    "name": "Pasquale Morelli",
+    "title": "Senior Brand Designer",
+    "contact": [
+      "Portfolio — pasqualemorelli.com ↗",
+      "Social — Instagram ↗ LinkedIn ↗",
+      "E-mail — pasq.morelli@gmail.com",
+      "Phone — +39 3292620733"
+    ],
+    "about": "Based in Milan, specialised in brand design, turning business goals into clear creative direction. Experienced across tech and agencies, building scalable, high-performing brand systems and campaigns, with craft and purpose behind every choice.",
+    "languages": [
+      "Italian — Native language",
+      "English — Fluent",
+      "Spanish — Beginner"
+    ],
+    "university": [
+      [
+        "Politecnico di Milano",
+        "Master's Degree, Communication Design — from 2017 to 2020",
+        "Grade: 110/110"
+      ],
+      [
+        "Centennial College, Toronto",
+        "Exchange semester — 2019"
+      ],
+      [
+        "Politecnico di Milano",
+        "Bachelor's Degree, Communication Design — from 2014 to 2017",
+        "Grade: 110/110 cum Laude"
+      ]
+    ],
+    "courses": [
+      [
+        "Creative Leadership",
+        "Royal College of Art, London — 2026"
+      ],
+      [
+        "Brand Management",
+        "Bocconi, Milan — 2026"
+      ],
+      [
+        "AI x Design Thinking",
+        "IDEO U — 2026"
+      ],
+      [
+        "Brand Strategy and Storytelling",
+        "Hyper Island, Stockholm — 2024"
+      ],
+      [
+        "Branding Now. Ultimate branding course for Senior Creatives",
+        "Future London Academy — 2023"
+      ]
+    ],
+    "skills": [
+      "Brand strategy and storytelling",
+      "Social content design",
+      "Brand systems a guidelines",
+      "Performance marketing creative",
+      "Creative and art direction",
+      "Campaign concepts",
+      "Graphic design",
+      "Web design",
+      "Motion design and storyboard",
+      "AI workflows"
+    ],
+    "experience": [
+      {
+        "company": "TrueLayer, Milan",
+        "roles": [
+          {
+            "title": "Senior Brand Designer — from Apr 2025",
+            "body": "Leading the brand direction for Pay by Bank across web, product and marketing. Owning brand guidelines and production ensuring consistency and performance. Partnering with Product and Marketing to translate priorities into a clear roadmap and actionable creative direction."
+          },
+          {
+            "title": "Brand Designer — from Oct 2022 to Apr 2025",
+            "body": "Delivering high craft assets across key brand and marketing touchpoints. Supporting campaigns and events, collaborating closely with cross functional teams to maintain consistency and quality."
+          }
+        ]
+      },
+      {
+        "company": "Blossom, Milan",
+        "roles": [
+          {
+            "title": "Graphic Designer — from Apr 2022 to Sept 2022",
+            "body": "Designing brand identities and digital assets for multiple clients. Working fast across formats while keeping strong visual craft."
+          }
+        ]
+      },
+      {
+        "company": "Accenture Song, Milan",
+        "roles": [
+          {
+            "title": "Experience Designer — from Nov 2020 to Apr 2022",
+            "body": "Designing digital experiences within multidisciplinary teams. Blending UX foundations with strong visual design across screens and journeys."
+          }
+        ]
+      },
+      {
+        "company": "Ogilvy, Milan",
+        "roles": [
+          {
+            "title": "Art Director Intern — from Jul 2019 to Jan 2020",
+            "body": "Supporting concept development for campaigns and content. Working within a creative team across feedback, production and delivery."
+          }
+        ]
+      },
+      {
+        "company": "Polimi Sport, Milan",
+        "roles": [
+          {
+            "title": "Graphic Designer and Content Creator — from Mar 2017 to Jul 2019",
+            "body": "Creating graphics and video content for Politecnico di Milano Sport social channels, supporting event storytelling and promotion."
+          }
+        ]
+      }
+    ],
+    "teaching": [
+      {
+        "company": "Politecnico di Milano, Milan",
+        "roles": [
+          {
+            "title": "Corporate Identity, Teaching Assistant — from Feb 2024",
+            "body": "Mentoring students through feedback to push concept and craft. Delivering lectures on design methods and project workflows."
+          },
+          {
+            "title": "Digital Image Culture, Teaching Assistant — Oct 2023 to Feb 2025",
+            "body": "Leading project mentoring, supporting students in developing strong concepts and high quality communication outcomes."
+          }
+        ]
+      }
+    ]
+  }
+}
